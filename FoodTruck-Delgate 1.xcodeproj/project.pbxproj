@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		FFB3108F1F05A5CC00A96DE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB3108E1F05A5CC00A96DE9 /* main.m */; };
+		FFB310971F05A73900A96DE9 /* FoodTruck.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB310961F05A73900A96DE9 /* FoodTruck.m */; };
+		FFB3109A1F05ABDB00A96DE9 /* Cook.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB310991F05ABDB00A96DE9 /* Cook.m */; };
+		FFB3109D1F05B03E00A96DE9 /* CookTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB3109C1F05B03E00A96DE9 /* CookTwo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		FFB3108B1F05A5CC00A96DE9 /* FoodTruck-Delgate 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "FoodTruck-Delgate 1"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB3108E1F05A5CC00A96DE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFB310951F05A73900A96DE9 /* FoodTruck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTruck.h; sourceTree = "<group>"; };
+		FFB310961F05A73900A96DE9 /* FoodTruck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTruck.m; sourceTree = "<group>"; };
+		FFB310981F05ABDB00A96DE9 /* Cook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cook.h; sourceTree = "<group>"; };
+		FFB310991F05ABDB00A96DE9 /* Cook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cook.m; sourceTree = "<group>"; };
+		FFB3109B1F05B03E00A96DE9 /* CookTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CookTwo.h; sourceTree = "<group>"; };
+		FFB3109C1F05B03E00A96DE9 /* CookTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CookTwo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				FFB3108E1F05A5CC00A96DE9 /* main.m */,
+				FFB310951F05A73900A96DE9 /* FoodTruck.h */,
+				FFB310961F05A73900A96DE9 /* FoodTruck.m */,
+				FFB310981F05ABDB00A96DE9 /* Cook.h */,
+				FFB310991F05ABDB00A96DE9 /* Cook.m */,
+				FFB3109B1F05B03E00A96DE9 /* CookTwo.h */,
+				FFB3109C1F05B03E00A96DE9 /* CookTwo.m */,
 			);
 			path = "FoodTruck-Delgate 1";
 			sourceTree = "<group>";
@@ -121,6 +136,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFB3108F1F05A5CC00A96DE9 /* main.m in Sources */,
+				FFB310971F05A73900A96DE9 /* FoodTruck.m in Sources */,
+				FFB3109D1F05B03E00A96DE9 /* CookTwo.m in Sources */,
+				FFB3109A1F05ABDB00A96DE9 /* Cook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
